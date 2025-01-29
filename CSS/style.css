@@ -103,7 +103,7 @@
     align-items: center;
     justify-content: center;
     z-index: 6;
-    background: url("../Media/background4.png");
+    background: url("../Media/background1.png");
     background-size: cover;
    /* animation: changeBackground 30s infinite;*/
 }
@@ -133,6 +133,10 @@
     margin-top: 3rem;
     width: 365px;
 }
+.home-content span h3 {
+    filter: drop-shadow(2px 4px 6px black);
+    font-family: Orbitron, sans-serif;
+}
 .home-content p,h1{
     width: 650px;
     margin-left: -400px;
@@ -159,26 +163,7 @@ span{
     line-height: 1;
     animation: slide-in-left 1s ease-in-out forwards;
 }
-.home-image{
-    border-radius: 50%;
-    animation: changeWallpaper 390s infinite ease-in-out,slide-in-right 1s ease-in-out;
-    max-width: 800px;
-    height: auto;
-    position: relative;
-    display: inline-block;
-}
-.home-image img{
-    position: relative;
-    top: 3rem;
-    width: 30vw;
-    border-radius: 50%;
-    box-shadow: 0 0 25px var(--main-color);
-    cursor: pointer;
-    transition: 0.4s ease-in-out;
-    animation: slide-in-right 1s ease-in-out forwards;
-    z-index: 1;  /* Ensures the image is above the yellow circle */
 
-}
 .home-content p{
     font-size: 1.5rem;
     font-weight: 500;
@@ -347,7 +332,6 @@ ul {
 .education{
     padding: 100px 15px;
     background: url("../Media/mats.png");
-    background-size: cover;
     animation: changeBackground 10s infinite;
 }
 .education h2{
@@ -1254,7 +1238,7 @@ h2{
     transition: all 1s;
 
 }
-/* card icons end */
+
 .member-card1:hover .icons{
     display: flex;
     cursor: pointer;
