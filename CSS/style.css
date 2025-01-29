@@ -643,6 +643,10 @@ h2{
         grid-template-columns: repeat(2,1fr);
         margin: 0 5rem;
     }
+    .home-content p,h1{
+        width: 200%;
+        margin-left: -300PX;
+    }
 }
 @media (max-width: 991px) {
     header{
@@ -677,6 +681,10 @@ h2{
         max-height: 100px;
         line-height: 1.7;
         margin: auto;
+    }
+    .home-content p,h1{
+        width: 150%;
+        margin-left: -200px;
     }
 }
 @media (max-width: 895px) {
@@ -733,6 +741,10 @@ h2{
         grid-template-columns: repeat(1,1fr);
         align-items: center;
         gap: 2.5rem;
+    }
+    .home-content p,h1{
+        width: 150%;
+        margin-left: -170px;
     }
 }
 @media (max-width: 480px) {
