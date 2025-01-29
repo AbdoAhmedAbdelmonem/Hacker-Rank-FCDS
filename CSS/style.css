@@ -346,7 +346,7 @@ ul {
 }
 .education{
     padding: 100px 15px;
-    background: url("../Media/ender2.png");
+    background: url("../Media/mats.png");
     background-size: cover;
     animation: changeBackground 10s infinite;
 }
