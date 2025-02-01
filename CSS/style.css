@@ -335,10 +335,9 @@ ul {
     animation: changeBackground 10s infinite;
 }
 .education h2{
-    background-color: black;
     margin: 0px 15px 5rem;
     border-color: var(--main-color);
-    border-radius: 10px;
+    filter: drop-shadow(2px 4px 6px var(--main-color));
     animation: slide-in-down 1s ease-in-out forwards;
 }
 h2{
