@@ -442,13 +442,14 @@ h2{
     line-height: 1.6;
     margin-bottom: 0;
     text-align: center;
-    font-family: Orbitron,sans-serif;
 }
 .footer ul li a{
     border-bottom: 3px solid transparent;
     color: var(--white-color);
     transition: 0.3s ease-in-out;
     justify-content: space-between;
+    font-family: Orbitron,sans-serif;
+
 }
 .footer ul li a:hover{
     border-bottom: 3px solid var(--main-color);
