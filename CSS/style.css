@@ -38,6 +38,7 @@
     }
     h1 span{
         font-family: Cookie,sans-serif;
+        text-align:center;
     }
     .logo img{
         width: 200px;
@@ -162,6 +163,7 @@ span{
     margin-top: 1.5rem;
     line-height: 1;
     animation: slide-in-left 1s ease-in-out forwards;
+    text-align:center;
 }
 
 .home-content p{
